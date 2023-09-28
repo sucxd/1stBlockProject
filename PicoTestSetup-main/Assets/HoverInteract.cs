@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class HoverInteract : MonoBehaviour
 {
@@ -23,4 +24,6 @@ public class HoverInteract : MonoBehaviour
         }
         
     }
+    public SelectEnterEvent selectEntered { get; set; }
+ 
 }
