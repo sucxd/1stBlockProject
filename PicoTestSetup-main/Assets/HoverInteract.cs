@@ -5,13 +5,16 @@ using UnityEngine;
 public class HoverInteract : MonoBehaviour
 {
     public GameObject TextToDisable;
-   void start()
+   void Start()
    {
-        ;
+        if(1<2)
+        {
+            Debug.LogFormat("Its WOking");
+        }
    }
     public void textPopUp()
     {
-        if(gameObject.Find{'TextBox'})
+        if(TextToDisable.activeSelf == true)
         {
             TextToDisable.SetActive(false);
         }else
