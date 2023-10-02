@@ -4,25 +4,29 @@ using UnityEngine;
 
 public class DetectLayer : MonoBehaviour
 {
-    private void OnTrigger(Collider other)
+  public string tagToDetect = "Tag1";
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.layer != LayerMask.NameToLayer("Default"))
+        // Check if the entered object has the specified tag
+        if (other.CompareTag(tagToDetect))
         {
-            string layerName= LayerMask.LayerToName(other.gameObject.layer);
-
-            switch ( (layerName))
+            // Display a message based on the detected tag
+            switch (tagToDetect)
             {
-              case "Layer1":
-                Debug.Log("Layer 1 detected");
-                break;
+                case "Tag1":
+                    Debug.Log("Tag 1 detected. Do something for Tag 1.");
+                    break;
 
-              case "Layer2":
-                Debug.Log("layer 2 detected.");
-                break;
+                case "Tag2":
+                    Debug.Log("Tag 2 detected. Do something for Tag 2.");
+                    break;
 
-              default:
-                Debug.Log("Uknown layer");
-                break;
+                // Add more cases for other tags as needed
+
+                default:
+                    Debug.Log("Unknown tag detected.");
+                    break;
             }
         }
     }
