@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/XRI_Examples/Scenes/XRI_Examples_Main.unity
     guid: ba755f5a181505a4799b21685d4c7576
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scenes/DemoScene.unity
+    guid: 319dafa5c80f29f428dc1e0d03f04177
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scenes/EndScreen.unity
+    guid: 369eba710abcb2047a6b4f807a1c9fd9
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 27dd6118e82996b49a061e630523a776, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: cfbdae90dfd7cd04ab90f73968f46828, type: 2}
