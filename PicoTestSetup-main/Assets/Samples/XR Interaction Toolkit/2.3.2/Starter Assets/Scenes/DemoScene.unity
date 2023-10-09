@@ -365,7 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4b519fd75b96d34ea63fbb5d279bcad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 
+  sceneToLoad: EndScreen
 --- !u!1001 &52418508
 PrefabInstance:
   m_ObjectHideFlags: 0
