@@ -3340,6 +3340,14 @@ PrefabInstance:
       propertyPath: m_RequestedTrackingOriginMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9032954039820430273, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      propertyPath: m_MaxRaycastDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9146015503685400394, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      propertyPath: m_MaxRaycastDistance
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
 --- !u!1 &227133103 stripped
@@ -5664,7 +5672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &430204786
 Transform:
   m_ObjectHideFlags: 0
@@ -5673,7 +5681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430204785}
   m_LocalRotation: {x: -0.00000023760364, y: -0.382061, z: -0.02180109, w: 0.92387986}
-  m_LocalPosition: {x: 0, y: 1.29, z: 0.07000124}
+  m_LocalPosition: {x: 0, y: 1.54, z: 0.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 959834768}
@@ -13892,7 +13900,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970237949}
   m_LocalRotation: {x: -0.28375232, y: 0.25404653, z: 0.65806043, w: 0.6495395}
-  m_LocalPosition: {x: -0.0241, y: 0.0071, z: 0.0001}
+  m_LocalPosition: {x: -0.0331, y: -0.0092, z: 0.0001}
   m_LocalScale: {x: 0.019999992, y: 0.019999998, z: 0.02}
   m_Children:
   - {fileID: 263761694}
@@ -19177,6 +19185,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: -1526964690268444965, guid: 48c4a6986144c7542b06a9d084928972, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5acc53c46d59808458be7e104a642420, type: 2}
     - target: {fileID: -1207637232843305403, guid: 48c4a6986144c7542b06a9d084928972, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -27025,7 +27037,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067996151}
   m_LocalRotation: {x: 0.70696056, y: -0.69217753, z: -0.074009135, w: 0.12497915}
-  m_LocalPosition: {x: -0.018488884, y: -0.0025388952, z: 0.0031755005}
+  m_LocalPosition: {x: -0.0289, y: -0.0029, z: 0.0056}
   m_LocalScale: {x: 0.02908513, y: 0.014625178, z: 0.0146648}
   m_Children:
   - {fileID: 193624473}
