@@ -59,27 +59,36 @@ public class DetectMultipleTags : MonoBehaviour
 
     private void CheckTagsAndDoAction()
     {
-        if(tag1Inside && tag2Inside)
+
+        if(tag1Inside && tag2Inside && tag3Inside)
         {
             cube1.SetActive(true);
-
-            cube2.SetActive(false);
-            cube3.SetActive(false);
-        }
-        if(tag1Inside && tag3Inside)
-        {
             cube2.SetActive(true);
-
-            cube3.SetActive(false);
-            cube1.SetActive(false);
-        }
-        if(tag2Inside && tag3Inside)
-        {
             cube3.SetActive(true);
-
-            cube1.SetActive(false);
-            cube2.SetActive(false);
         }
+
+
+        // if(tag1Inside && tag2Inside)
+        // {
+        //     cube1.SetActive(true);
+
+        //     cube2.SetActive(false);
+        //     cube3.SetActive(false);
+        // }
+        // if(tag1Inside && tag3Inside)
+        // {
+        //     cube2.SetActive(true);
+
+        //     cube3.SetActive(false);
+        //     cube1.SetActive(false);
+        // }
+        // if(tag2Inside && tag3Inside)
+        // {
+        //     cube3.SetActive(true);
+
+        //     cube1.SetActive(false);
+        //     cube2.SetActive(false);
+        // }
 
     }
 }
