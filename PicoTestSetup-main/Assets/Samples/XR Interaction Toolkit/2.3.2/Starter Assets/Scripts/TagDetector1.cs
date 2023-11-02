@@ -10,17 +10,17 @@ public class TagDetector1 : MonoBehaviour
     public GameObject EndingFour;
     public GameObject EndingFive;
 
-    public string Wallet = "WalletB";
-    public string Gun = "Gun";
-    public string HandCoveringChest = "HandCoveringChest";
-    public string PoolOfBlood = "PoolOfBlood";
-    public string WoundHead = "WoundHead";
-    public string FitBit = "FitBit";
-    public string SecurityCamera = "SecurityCamera";
-    public string Footprint = "Footprint";
-    public string BrokenBottle = "BrokenBottle";
-    public string MallTimeTable = "MallTimeTable";
-    public string Phone = "Phone";
+    string Wallet = "WalletB";
+    string Gun = "Gun";
+    string HandCoveringChest = "HandCoveringChest";
+    string PoolOfBlood = "PoolOfBlood";
+    string WoundHead = "WoundHead";
+    string FitBit = "FitBit";
+    string SecurityCamera = "SecurityCamera";
+    string Footprint = "Footprint";
+    string BrokenBottle = "BrokenBottle";
+    string MallTimeTable = "MallTimeTable";
+    string Phone = "Phone";
 
     bool WalletInside = false;
     bool GunInside = false;
@@ -46,76 +46,176 @@ public class TagDetector1 : MonoBehaviour
     {
 
     }
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
+        // if (other.CompareTag(Wallet))
+        // {
+        //     WalletInside = true;
+        // }
+        // else { WalletInside = false; }
+
+        // if (other.CompareTag(Gun))
+        // {
+        //     GunInside = true;
+        // }
+        // else { GunInside = false; }
+
+        // if (other.CompareTag(HandCoveringChest))
+        // {
+        //     HandCoveringChestInside = true;
+        // }
+        // else { HandCoveringChestInside = false; }
+
+        // if (other.CompareTag(PoolOfBlood))
+        // {
+        //     PoolOfBloodInside = true;
+        // }
+        // else { PoolOfBloodInside = false; }
+
+        // if (other.CompareTag(WoundHead))
+        // {
+        //     WoundHeadInside = true;
+        // }
+        // else { WoundHeadInside = false; }
+
+        // if (other.CompareTag(FitBit))
+        // {
+        //     FitBitInside = true;
+        // }
+        // else { FitBitInside = false; }
+
+        // if (other.CompareTag(SecurityCamera))
+        // {
+        //     SecurityCameraInside = true;
+        // }
+        // else { SecurityCameraInside = false; }
+
+        // if (other.CompareTag(Footprint))
+        // {
+        //     FootprintInside = true;
+        // }
+        // else { FootprintInside = false; }
+
+        // if (other.CompareTag(BrokenBottle))
+        // {
+        //     BrokenBottleInside = true;
+        // }
+        // else { BrokenBottleInside = false; }
+
+        // if (other.CompareTag(MallTimeTable))
+        // {
+        //     MallTimeTableInside = true;
+        // }
+        // else { MallTimeTableInside = false; }
+
+        // if (other.CompareTag(Phone))
+        // {
+        //     PhoneInside = true;
+        // }
+        // else { PhoneInside = false; }
+
         if (other.CompareTag(Wallet))
         {
             WalletInside = true;
         }
-        else { WalletInside = false; }
-
-        if (other.CompareTag(Gun))
+        else if (other.CompareTag(Gun))
         {
             GunInside = true;
+            Debug.Log("Gun is inside");
         }
-        else { GunInside = false; }
-
-        if (other.CompareTag(HandCoveringChest))
+        else if (other.CompareTag(HandCoveringChest))
         {
             HandCoveringChestInside = true;
+            Debug.Log("handecoveringchest is inside");
         }
-        else { HandCoveringChestInside = false; }
-
-        if (other.CompareTag(PoolOfBlood))
+        else if (other.CompareTag(PoolOfBlood))
         {
             PoolOfBloodInside = true;
+            Debug.Log("Pool of blood is inside");
         }
-        else { PoolOfBloodInside = false; }
-
-        if (other.CompareTag(WoundHead))
+        else if (other.CompareTag(WoundHead))
         {
             WoundHeadInside = true;
         }
-        else { WoundHeadInside = false; }
-
-        if (other.CompareTag(FitBit))
+        else if (other.CompareTag(FitBit))
         {
             FitBitInside = true;
+            Debug.Log("FitBit is inside");
         }
-        else { FitBitInside = false; }
-
-        if (other.CompareTag(SecurityCamera))
+        else if (other.CompareTag(SecurityCamera))
         {
             SecurityCameraInside = true;
         }
-        else { SecurityCameraInside = false; }
-
-        if (other.CompareTag(Footprint))
+        else if (other.CompareTag(Footprint))
         {
             FootprintInside = true;
         }
-        else { FootprintInside = false; }
-
-        if (other.CompareTag(BrokenBottle))
+        else if (other.CompareTag(BrokenBottle))
         {
             BrokenBottleInside = true;
         }
-        else { BrokenBottleInside = false; }
-
-        if (other.CompareTag(MallTimeTable))
+        else if (other.CompareTag(MallTimeTable))
         {
             MallTimeTableInside = true;
         }
-        else { MallTimeTableInside = false; }
-
-        if (other.CompareTag(Phone))
+        else if (other.CompareTag(Phone))
         {
             PhoneInside = true;
         }
-        else { PhoneInside = false; }
+
 
         CheckTagsAndRun();
     }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag(Wallet))
+        {
+            WalletInside = false;
+        }
+        else if (other.CompareTag(Gun))
+        {
+            GunInside = false;
+        }
+        else if (other.CompareTag(HandCoveringChest))
+        {
+            HandCoveringChestInside = false;
+        }
+        else if (other.CompareTag(PoolOfBlood))
+        {
+            PoolOfBloodInside = false;
+        }
+        else if (other.CompareTag(WoundHead))
+        {
+            WoundHeadInside = false;
+        }
+        else if (other.CompareTag(FitBit))
+        {
+            FitBitInside = false;
+        }
+        else if (other.CompareTag(SecurityCamera))
+        {
+            SecurityCameraInside = false;
+        }
+        else if (other.CompareTag(Footprint))
+        {
+            FootprintInside = false;
+        }
+        else if (other.CompareTag(BrokenBottle))
+        {
+            BrokenBottleInside = false;
+        }
+        else if (other.CompareTag(MallTimeTable))
+        {
+            MallTimeTableInside = false;
+        }
+        else if (other.CompareTag(Phone))
+        {
+            PhoneInside = false;
+        }
+
+        CheckTagsAndRun();
+    }
+
 
 
     private void CheckTagsAndRun()
@@ -124,21 +224,46 @@ public class TagDetector1 : MonoBehaviour
         {
             EndingOne.SetActive(true);
         }
+        else
+        {
+            EndingOne.SetActive(false);
+        }
+
         if (WoundHeadInside && FitBitInside && SecurityCameraInside && FootprintInside)
         {
             EndingTwo.SetActive(true);
         }
+        else
+        {
+            EndingTwo.SetActive(false);
+        }
+
         if (FootprintInside && SecurityCameraInside && BrokenBottleInside && PoolOfBloodInside)
         {
             EndingThre.SetActive(true);
         }
+        else
+        {
+            EndingThre.SetActive(false);
+        }
+
         if (MallTimeTableInside && PhoneInside && WalletInside && GunInside)
         {
             EndingFour.SetActive(true);
         }
+        else
+        {
+            EndingFour.SetActive(false);
+        }
+
         if (PhoneInside && WalletInside && SecurityCameraInside && BrokenBottleInside)
         {
             EndingFive.SetActive(true);
         }
+        else
+        {
+            EndingFive.SetActive(false);
+        }
     }
+
 }

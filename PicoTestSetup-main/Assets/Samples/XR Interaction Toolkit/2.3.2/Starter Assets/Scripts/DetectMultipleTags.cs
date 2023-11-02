@@ -53,7 +53,7 @@ public class DetectMultipleTags : MonoBehaviour
             tag3Inside = false;
             cube3.SetActive(false);
         }
-
+        
         CheckTagsAndDoAction();
     }
 

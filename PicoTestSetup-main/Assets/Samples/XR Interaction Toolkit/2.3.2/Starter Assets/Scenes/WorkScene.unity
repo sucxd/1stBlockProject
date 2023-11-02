@@ -359,7 +359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &147152422
 Transform:
   m_ObjectHideFlags: 0
@@ -557,7 +557,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &156073373
 Transform:
   m_ObjectHideFlags: 0
@@ -4871,6 +4871,7 @@ GameObject:
   - component: {fileID: 1132948351}
   - component: {fileID: 1132948350}
   - component: {fileID: 1132948349}
+  - component: {fileID: 1132948354}
   m_Layer: 0
   m_Name: Cube
   m_TagString: FitBit
@@ -5044,6 +5045,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1132948354
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132948348}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1135531205
 GameObject:
   m_ObjectHideFlags: 0
@@ -5762,6 +5779,7 @@ GameObject:
   - component: {fileID: 1448630540}
   - component: {fileID: 1448630539}
   - component: {fileID: 1448630538}
+  - component: {fileID: 1448630543}
   m_Layer: 0
   m_Name: WoundHead
   m_TagString: WoundHead
@@ -5934,6 +5952,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1448630543
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448630537}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1001 &1488412854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6709,8 +6743,21 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 14
   m_CollisionDetection: 0
+--- !u!65 &1518844916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518844913}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.043835968, y: 0.020000001, z: 0.027778322}
+  m_Center: {x: 0.018091148, y: -1.15906035e-10, z: 0.003889161}
 --- !u!1 &1547838381
 GameObject:
   m_ObjectHideFlags: 0
@@ -6725,6 +6772,7 @@ GameObject:
   - component: {fileID: 1547838385}
   - component: {fileID: 1547838384}
   - component: {fileID: 1547838383}
+  - component: {fileID: 1547838388}
   m_Layer: 0
   m_Name: Investigate
   m_TagString: HandCoveringChest
@@ -6935,6 +6983,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547838381}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1547838388
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547838381}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1001 &1578626262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7419,7 +7483,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1654511392
 Transform:
   m_ObjectHideFlags: 0
@@ -8267,7 +8331,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1887274768
 Transform:
   m_ObjectHideFlags: 0
@@ -8825,7 +8889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2013873809
 Transform:
   m_ObjectHideFlags: 0
@@ -9243,6 +9307,7 @@ GameObject:
   - component: {fileID: 2070318919}
   - component: {fileID: 2070318918}
   - component: {fileID: 2070318917}
+  - component: {fileID: 2070318922}
   m_Layer: 0
   m_Name: PoolOfBlood
   m_TagString: PoolOfBlood
@@ -9415,6 +9480,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &2070318922
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070318916}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &2078005177
 GameObject:
   m_ObjectHideFlags: 0
@@ -9600,17 +9681,6 @@ MonoBehaviour:
   EndingThre: {fileID: 156073372}
   EndingFour: {fileID: 2013873808}
   EndingFive: {fileID: 1654511391}
-  Wallet: WalletB
-  Gun: Gun
-  HandCoveringChest: HandCoveringChest
-  PoolOfBlood: PoolOfBlood
-  WoundHead: WoundHead
-  FitBit: FitBit
-  SecurityCamera: SecurityCamera
-  Footprint: Footprint
-  BrokenBottle: BrokenBottle
-  MallTimeTable: MallTimeTable
-  Phone: Phone
 --- !u!65 &2121356075
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9622,8 +9692,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.6810517, y: 1, z: 1}
+  m_Center: {x: -0.8405267, y: 0, z: 2.1774654e-14}
 --- !u!23 &2121356076
 MeshRenderer:
   m_ObjectHideFlags: 0
