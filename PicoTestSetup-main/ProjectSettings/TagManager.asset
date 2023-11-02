@@ -4,9 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Tag1
-  - Tag2
-  - Tag3
+  - Gun
+  - WalletB
+  - HandCoveringChest
+  - PoolOfBlood
+  - WoundHead
+  - FitBit
+  - SecurityCamera
+  - Footprint
+  - BrokenBottle
+  - MallTimeTable
+  - Phone
   layers:
   - Default
   - TransparentFX
