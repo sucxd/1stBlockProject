@@ -48,71 +48,7 @@ public class TagDetector1 : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        // if (other.CompareTag(Wallet))
-        // {
-        //     WalletInside = true;
-        // }
-        // else { WalletInside = false; }
-
-        // if (other.CompareTag(Gun))
-        // {
-        //     GunInside = true;
-        // }
-        // else { GunInside = false; }
-
-        // if (other.CompareTag(HandCoveringChest))
-        // {
-        //     HandCoveringChestInside = true;
-        // }
-        // else { HandCoveringChestInside = false; }
-
-        // if (other.CompareTag(PoolOfBlood))
-        // {
-        //     PoolOfBloodInside = true;
-        // }
-        // else { PoolOfBloodInside = false; }
-
-        // if (other.CompareTag(WoundHead))
-        // {
-        //     WoundHeadInside = true;
-        // }
-        // else { WoundHeadInside = false; }
-
-        // if (other.CompareTag(FitBit))
-        // {
-        //     FitBitInside = true;
-        // }
-        // else { FitBitInside = false; }
-
-        // if (other.CompareTag(SecurityCamera))
-        // {
-        //     SecurityCameraInside = true;
-        // }
-        // else { SecurityCameraInside = false; }
-
-        // if (other.CompareTag(Footprint))
-        // {
-        //     FootprintInside = true;
-        // }
-        // else { FootprintInside = false; }
-
-        // if (other.CompareTag(BrokenBottle))
-        // {
-        //     BrokenBottleInside = true;
-        // }
-        // else { BrokenBottleInside = false; }
-
-        // if (other.CompareTag(MallTimeTable))
-        // {
-        //     MallTimeTableInside = true;
-        // }
-        // else { MallTimeTableInside = false; }
-
-        // if (other.CompareTag(Phone))
-        // {
-        //     PhoneInside = true;
-        // }
-        // else { PhoneInside = false; }
+       
 
         if (other.CompareTag(Wallet))
         {
