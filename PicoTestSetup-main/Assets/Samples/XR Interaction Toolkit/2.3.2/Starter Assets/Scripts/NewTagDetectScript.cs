@@ -39,13 +39,13 @@ public class NewTagDetectScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Initialize your variables or perform any setup here if needed.
+        
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
-        // Update your game logic here if necessary.
+        
     }
 
     private void OnTriggerEnter(Collider other)
