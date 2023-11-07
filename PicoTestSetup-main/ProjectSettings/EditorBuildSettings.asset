@@ -6,14 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/XRI_Examples/Scenes/XRI_Examples_Main.unity
-    guid: ba755f5a181505a4799b21685d4c7576
+    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scenes/StartScene.unity
+    guid: e75f33132e72ee14f9875c4924c10ada
   - enabled: 1
-    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scenes/DemoScene.unity
-    guid: 319dafa5c80f29f428dc1e0d03f04177
+    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scenes/GoodScene.unity
+    guid: 620c7cfe31d67844dbb4af279a15947a
   - enabled: 1
-    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scenes/EndScreen.unity
-    guid: 369eba710abcb2047a6b4f807a1c9fd9
+    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scenes/EndScene1.unity
+    guid: cc6259e56b7361c45b5310a6701b91eb
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scenes/EndScene2.unity
+    guid: c0f42582b677eb147a38287d273c75aa
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scenes/EndScene3.unity
+    guid: b17ecd3f465911146b96457e752e1f3f
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scenes/EndScene4.unity
+    guid: f60b940adda3ca544ac08e70ddf73f1a
+  - enabled: 1
+    path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Scenes/EndScene5.unity
+    guid: f5ebff1bf60344e41b7e95e3656541a1
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 27dd6118e82996b49a061e630523a776, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: cfbdae90dfd7cd04ab90f73968f46828, type: 2}
