@@ -1483,7 +1483,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Person B's wallet
+  m_text: Person B as having a violent past. Also contains gun registration which
+    is out of date
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1718,7 +1719,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wound
+  m_text: Cannot discern the wound with the hologram provided
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1745,7 +1746,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.6
+  m_fontSize: 0.3
   m_fontSizeBase: 0.3
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1781,7 +1782,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0690416, y: -0.48522842, z: -1.046207, w: 1.5099669}
+  m_margin: {x: 1.0690416, y: -0.9461516, z: -1.046207, w: 0.97116715}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2381,6 +2382,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 38.087
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f2a3d30818c2824498f247a96ad2f7ef, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a440491c899ba48488d533240e03d766, type: 2}
     - target: {fileID: 919132149155446097, guid: f2a3d30818c2824498f247a96ad2f7ef, type: 3}
       propertyPath: m_Name
       value: footprint (2)
@@ -3436,7 +3441,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430204785}
   m_LocalRotation: {x: -0.00000023760364, y: -0.382061, z: -0.02180109, w: 0.92387986}
-  m_LocalPosition: {x: 0, y: 1.54, z: 0.08}
+  m_LocalPosition: {x: 0.08, y: 3.63, z: 0.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 959834768}
@@ -4305,15 +4310,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 575011667}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000000056469}
-  m_LocalScale: {x: 0.9886993, y: 0.36922276, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9886993, y: 0.98791873, z: 0}
   m_Children: []
   m_Father: {fileID: 959834768}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.4902, y: -0.19239}
+  m_AnchoredPosition: {x: -0.49, y: -0.493}
   m_SizeDelta: {x: 0.9999998, y: 1}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &575011669
@@ -4417,6 +4422,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 38.087
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f2a3d30818c2824498f247a96ad2f7ef, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a440491c899ba48488d533240e03d766, type: 2}
     - target: {fileID: 919132149155446097, guid: f2a3d30818c2824498f247a96ad2f7ef, type: 3}
       propertyPath: m_Name
       value: footprint (1)
@@ -4647,18 +4656,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620490558}
-  m_LocalRotation: {x: -0.14650148, y: 0.035312843, z: 0.011575605, w: -0.98851216}
-  m_LocalPosition: {x: 0, y: 0, z: 0.524}
+  m_LocalRotation: {x: -0.6703279, y: 0.7254657, z: 0.08619342, w: 0.13011792}
+  m_LocalPosition: {x: 0, y: 0, z: 1.07}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 1871935555}
   - {fileID: 1764802587}
   m_Father: {fileID: 681925292}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 16.787, y: 355.615, z: -1.989}
+  m_LocalEulerAnglesHint: {x: -17.428, y: 175.598, z: -84.801}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.864}
+  m_AnchoredPosition: {x: 0.08, y: 2.91}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &620490560
@@ -4999,15 +5008,13 @@ GameObject:
   - component: {fileID: 681925292}
   - component: {fileID: 681925296}
   - component: {fileID: 681925295}
-  - component: {fileID: 681925294}
-  - component: {fileID: 681925293}
   m_Layer: 0
   m_Name: WalletPickupA
   m_TagString: Tag2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &681925292
 Transform:
   m_ObjectHideFlags: 0
@@ -5023,35 +5030,6 @@ Transform:
   m_Father: {fileID: 1355475842}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -0.955, y: -44.915, z: -2.309}
---- !u!54 &681925293
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 681925291}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
---- !u!65 &681925294
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 681925291}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.5500216, y: 1, z: 0.27807802}
-  m_Center: {x: 0.31781492, y: -0.0000000026263187, z: 0.012484171}
 --- !u!23 &681925295
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5504,7 +5482,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Blood Person A's
+  m_text: The source cannot be seen under the hologram
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7164,6 +7142,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 38.087
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f2a3d30818c2824498f247a96ad2f7ef, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a440491c899ba48488d533240e03d766, type: 2}
     - target: {fileID: 919132149155446097, guid: f2a3d30818c2824498f247a96ad2f7ef, type: 3}
       propertyPath: m_Name
       value: footprint (3)
@@ -7842,6 +7824,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 51.372
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f2a3d30818c2824498f247a96ad2f7ef, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a440491c899ba48488d533240e03d766, type: 2}
     - target: {fileID: 919132149155446097, guid: f2a3d30818c2824498f247a96ad2f7ef, type: 3}
       propertyPath: m_Name
       value: footprint
@@ -7935,6 +7921,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1162207240}
+        m_TargetAssemblyTypeName: DisableGlow, Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+        m_MethodName: DisableGlowingMat
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8050,6 +8048,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &1162207240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162207235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738b4a1a653464c4695e9c0c69a92568, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  glowingMaterial: {fileID: 2100000, guid: a440491c899ba48488d533240e03d766, type: 2}
 --- !u!1 &1176044588
 GameObject:
   m_ObjectHideFlags: 0
@@ -8410,7 +8421,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1234736118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9189,7 +9200,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1 &1448630537
 GameObject:
@@ -10326,6 +10337,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1547838383}
+        m_TargetAssemblyTypeName: DisableGlow, Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+        m_MethodName: DisableGlowingMat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_Deactivated:
     m_PersistentCalls:
       m_Calls:
@@ -11346,7 +11369,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Person A's wallet
+  m_text: "Person A\u2019s ID, which describes a history of DUIs and minor arrests
+    for bar brawls"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11373,7 +11397,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.4
+  m_fontSize: 0.25
   m_fontSizeBase: 0.3
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11409,7 +11433,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.0733156, y: -0.48522842, z: -1.0715874, w: 1.5099669}
+  m_margin: {x: 1.0733156, y: -1.0710921, z: -1.0715874, w: 1.2945057}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11965,15 +11989,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871935554}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.00000020687}
-  m_LocalScale: {x: 0.9858591, y: 0.5933276, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.005}
+  m_LocalScale: {x: 0.9858591, y: 1.0164506, z: 0}
   m_Children: []
   m_Father: {fileID: 620490559}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.48879, y: -0.30442}
+  m_AnchoredPosition: {x: -0.488, y: -0.501}
   m_SizeDelta: {x: 0.9999998, y: 1}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1871935556
@@ -12736,6 +12760,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d34c0db2d8609eb43810fcf25618d76e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 066d3f782e2b19e41ab81f7bbedaff2a, type: 2}
     - target: {fileID: 919132149155446097, guid: d34c0db2d8609eb43810fcf25618d76e, type: 3}
       propertyPath: m_Name
       value: PoolOfBlood
@@ -12816,6 +12844,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1973162510}
+        m_TargetAssemblyTypeName: DisableGlow, Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+        m_MethodName: DisableGlowingMat
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12931,6 +12971,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &1973162510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973162506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 738b4a1a653464c4695e9c0c69a92568, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  glowingMaterial: {fileID: 2100000, guid: 066d3f782e2b19e41ab81f7bbedaff2a, type: 2}
 --- !u!1 &2013873808
 GameObject:
   m_ObjectHideFlags: 0
